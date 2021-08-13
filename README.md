@@ -30,12 +30,12 @@ Follow the steps:
 - npm i
 - ng serve
 
-**### Manual deployment:**
+## Manual deployment:
 
-> S3 bucket: http://rs-task2-app.s3-website-eu-west-1.amazonaws.com
-> CloudFront: https://d3f6492efoi225.cloudfront.net
+- S3 bucket: http://rs-task2-app.s3-website-eu-west-1.amazonaws.com
+- CloudFront: https://d3f6492efoi225.cloudfront.net
 
-**### Automated deployment:**
+## Automated deployment:
 
-> S3 bucket: http://rs-task2-app-automatic.s3-website-us-east-1.amazonaws.com
-> CloudFront: https://dldghsdflesjp.cloudfront.net
+- S3 bucket: http://rs-task2-app-automatic.s3-website-us-east-1.amazonaws.com
+- CloudFront: https://dldghsdflesjp.cloudfront.net
