@@ -37,5 +37,5 @@ Follow the steps:
 
 ## Automated deployment:
 
-- S3 bucket: http://rs-task2-app-automatic.s3-website-us-east-1.amazonaws.com
+- S3 bucket: http://rs-task2-app2.s3-website-eu-west-1.amazonaws.com
 - CloudFront: https://dldghsdflesjp.cloudfront.net

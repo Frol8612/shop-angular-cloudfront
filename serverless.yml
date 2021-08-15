@@ -23,6 +23,7 @@ frameworkVersion: "2"
 provider:
   name: aws
   runtime: nodejs12.x
+  region: eu-west-1
 
 plugins:
   - serverless-finch
@@ -30,7 +31,7 @@ plugins:
 
 custom:
   client:
-    bucketName: rs-task2-app-automatic
+    bucketName: rs-task2-app2
     distributionFolder: dist/app
 
   ## Serverless-single-page-app-plugin configuration:
@@ -39,7 +40,6 @@ custom:
 
 # you can overwrite defaults here
 #  stage: dev
-#  region: us-east-1
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
