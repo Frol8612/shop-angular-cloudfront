@@ -38,4 +38,4 @@ Follow the steps:
 ## Automated deployment:
 
 - S3 bucket: http://rs-task2-app2.s3-website-eu-west-1.amazonaws.com
-- CloudFront: https://dldghsdflesjp.cloudfront.net
+- CloudFront: https://dfs2ccx4rx6va.cloudfront.net
