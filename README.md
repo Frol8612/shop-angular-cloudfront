@@ -29,3 +29,13 @@ Follow the steps:
 - git clone
 - npm i
 - ng serve
+
+## Manual deployment:
+
+- S3 bucket: http://rs-task2-app.s3-website-eu-west-1.amazonaws.com
+- CloudFront: https://d3f6492efoi225.cloudfront.net
+
+## Automated deployment:
+
+- S3 bucket: http://rs-task2-app2.s3-website-eu-west-1.amazonaws.com
+- CloudFront: https://dfs2ccx4rx6va.cloudfront.net
