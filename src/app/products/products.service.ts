@@ -13,7 +13,7 @@ export class ProductsService extends ApiService {
       console.warn(
         'Endpoint "bff" is disabled. To enable change your environment.ts config'
       );
-      return this.http.get<Product[]>(this.config.apiEndpoints.product);
+      return this.http.get<Product[]>('/assets/products.json');
     }
 
     const url = this.getUrl('bff', 'products');
