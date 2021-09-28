@@ -20,11 +20,6 @@ export class ProductsService extends ApiService {
     return this.http.get<Product[]>(url);
   }
 
-  getProduct(id: string): Observable<Product> {
-    const url = this.getUrl('product', `products/${id}`);
-    return this.http.get<Product>(url);
-  }
-
   getProductsForCheckout(ids: string[]): Observable<Product[]> {
     if (!ids.length) {
       return of([]);
