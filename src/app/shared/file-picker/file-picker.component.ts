@@ -19,11 +19,6 @@ export class FilePickerComponent {
 
     const file = files.item(0) as File;
 
-    if (!['text/csv', 'application/vnd.ms-excel'].includes(file.type)) {
-      this.removeFile();
-      return;
-    }
-
     this.fileChange.emit(file);
     this.file = file;
   }
