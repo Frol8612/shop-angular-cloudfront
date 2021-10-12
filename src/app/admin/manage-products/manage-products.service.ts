@@ -36,7 +36,7 @@ export class ManageProductsService extends ApiService {
     return this.http.get<string>(url, {
       headers: { 
         // eslint-disable-next-line @typescript-eslint/naming-convention
-        Authorization: `Basic ${token}`
+        Authorization: token ? `Basic ${token}` : '',
       },
       params: {
         name: fileName,
