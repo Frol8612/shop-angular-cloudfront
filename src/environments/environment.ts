@@ -18,7 +18,7 @@ export const environment: Config = {
     order: false,
     import: true,
     bff: true,
-    cart: false,
+    cart: true,
   },
 };
 
